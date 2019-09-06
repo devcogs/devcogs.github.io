@@ -6,6 +6,8 @@ comments: true
 tags: getting started, hosting, plugins, themes
 ---
 
+![Setting up a new WordPress site](https://cogs.dev/imgs/setup-new-wordpress-site.jpg)
+
 You’ve got an idea for a new website, you know or at least have an idea of what you want it to look like. You know what content you’ll be putting on there, you know what products or services you’ll be selling (if you are). And you think you want to do it all with WordPress.
 
 It turns out that using WordPress is a great decision, it has a vibrant ecosystem and has many plugins already built that can handle almost any idea you can throw at it. If not there are companies, freelancers and more standing by ready to help you bring your idea to life.
