@@ -1,0 +1,54 @@
+---
+layout: compress
+---
+
+{% include head.html %}
+
+    <div class="container">
+        <div class="section friendly">
+            {% include header.html %}
+
+            <div class="row">
+                <div class="content col-1">
+                {{ content }}
+                </div>
+                <div class="sidebar col-2">
+                    <!--<p><a class="btn" href="#!">Hire me</a></p>
+                    <p></p><br>-->
+                    <div class="panel trending">
+                        <div class="panel-heading">
+                            <span class="panel-title">
+                            Recent posts
+                            </span>
+                        </div>
+                        <div class="panel-body">
+                        	<ul>
+                        	{% for post in site.posts limit:5 %}
+                        		<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+							{% endfor %}
+							</ul>
+                        </div>
+                    </div>
+                    <div class="panel links">
+                        <div class="panel-heading">
+                            <span class="panel-title">
+                                Links and Info
+                            </span>
+                        </div>
+                        <div class="panel-body">
+                            <ul>
+                                <li><a href="https://github.com/devcogs">open source</a></li>
+                                <li><a href="{{site.url}}/contact.html">get in touch</a></li>
+                                <li><a href="https://wordpress.org">WordPress</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>{{ site.title }} &copy; {{ site.time | date: '%Y'}}</p>
+        </div>
+    </div>
+
+{% include footer.html %}

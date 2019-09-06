@@ -1,0 +1,9 @@
+# Site settings
+title: dev cogs
+description: dev cogs is a software development shop specializing in WordPress, Python, and Golang development.
+url: https://cogs.dev
+github_username: devcogs
+
+# Build settings
+markdown: kramdown
+permalink: ordinal
