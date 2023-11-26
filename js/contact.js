@@ -5,7 +5,7 @@ $( document ).ready(function() {
     	var datastring = $('#contact-form').serialize();
     	$.ajax({
             type: 'POST',
-            url: 'https://ebg.xyz/contact.php',
+            url: 'https://cogs.dev/contact.php',
             data: datastring,
             success: function(data) {
             	$('#myModal').modal('hide');

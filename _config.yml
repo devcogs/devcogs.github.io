@@ -1,7 +1,7 @@
 # Site settings
 title: dev cogs
 description: dev cogs is a software development shop specializing in WordPress, Python, and Golang development.
-url: https://cogs.dev
+url: https://devcogs.github.io/
 github_username: devcogs
 
 # Build settings

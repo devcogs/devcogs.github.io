@@ -1,1 +1,1 @@
-the cogs.dev site.
+the devcogs.github.io site.
